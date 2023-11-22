@@ -1,0 +1,67 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="shortcut icon" href="img/LOGO.png">
+    <title>LEIM</title>
+</head>
+
+<body>
+    <main>
+        <img src="img/fondo.svg" class="main-fondo">
+        <img src="img/fondo-1 rotated.svg" class="main-fondo-1">
+        <img src="img/fondo.svg" class="main-fondo-cover">
+
+        <section class="inicio">
+
+            <div class="inicio-login">
+                <div class="inicio-logotipo">
+                    <img class="inicio-img-LEIM" src="img/logotipo-removebg-preview.png" alt="LEIM">
+                </div>
+
+                <h1 class="inicio-titulo-colegio">Instituto Educativo Secundario N° 4</h1>
+
+                <form action="">
+
+                    <label for="user">Nombre de Usuario/Email</label>
+                    <input id="user" class="inicio-input" type="email" placeholder="Ingrese su Usuario/Email">
+                    
+                    <label for="password">Contraseña</label>
+                    <input id="password" class="inicio-input" type="password" placeholder="Ingrese su Contraseña">
+
+                    <div id="mensajeError">
+
+                    </div>
+
+                    <div class="inicio-logicaInicio">
+                        <input type="button" value="Login" class="btn-login" onclick="logear()">
+                        <a href="olvide-contra.html" class="inicio-olv-password">Olvide mi contraseña</a>
+                    </div>
+
+                </form>
+            </div>
+
+            <img src="img/home-mancha.svg" class="inicio-mancha">
+            <img src="img/home-img.svg" class="inicio-imgHome">
+
+            <a href="#" id="robot"><img src="img/robot.svg" class="inicio-robot"></a>
+        </section>
+
+        <div id="popUp" class="popup verPopup">
+            <h1>¡Hola! Bienvenido/a</h1>
+        <h2>Para acceder a la plataforma introduce tu<strong> Usuario y Contraseña</strong>, luego haz click en el botón <strong>Login. <br><br></strong>
+        Si haz olvidado tu contraseña, haz click en <strong><span>Olvide mi contraseña.</span></strong> para restablecerla.
+        </h2>
+        <img src="img/LOGO.png">
+        <button class="btn-popUp">Aceptar</button>
+        </div>
+
+    </main>
+    <script src="js/login.js"></script>
+    <script src="js/popUp.js"></script>
+</body>
+
+</html>

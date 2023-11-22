@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+
+.inicio-img-LEIM {
+    width: 11.11em;
+}
+
+.inicio-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-left: 2.2em;
+    margin-bottom: 2.7em;
+    text-align: center;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+    background-color: #022E40;
+    height: 70px;
+    gap: 15px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.nav-logotipo {
+    display: flex;
+    width: 50%;
+}
+
+.nav-logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: xx-large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-user {
+    width: 40px;
+    height: 40px;
+
+}
+
+.nav-burger img {
+    width: 40px;
+}
+
+.home-Familia {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    margin: 15px 10px 0px 0px;
+}
+
+.home-Familia h2 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+    margin-top: 6px;
+}
+
+.menu-burger {
+    position: fixed;
+    right: 0px;
+    top: 70px;
+    background-color: #022E40;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    width: 222px;
+    height: 150px;
+}
+
+.menu-burger a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+    text-align: left;
+    padding: 10px;
+}
+
+.menu-burger a:hover {
+    background-color: #65858C;
+    transition: 0.4s;
+}
+
+.burgerNone {
+    display: none;
+}
+
+#nav-responsive {
+    display: flex;
+    height: auto;
+}
+
+
+@media screen and (max-width: 47em) {
+
+    /* --HEADER-- */
+    header {
+        background-color: #022E40;
+        width: 100%;
+        z-index: 90;
+    }
+
+    .nav-home {
+        display: flex;
+        grid-template-areas: "logotipo familia";
+        height: 4em;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .nav-logotipo {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+
+    .nav-logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin: 0 0.3em
+    }
+
+    #nav-responsive {
+        display: flex;
+        align-items: center;
+        height: auto;
+    }
+
+    .nav-titulo-colegio {
+        color: white;
+        font-family: 'libra-serif-modern-regular';
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: start;
+    }
+
+    .nav-user {
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav-burger {
+        height: 45px;
+    }
+
+    .nav-burger img {
+        width: 45px;
+        height: 45px;
+    }
+
+    .home-Familia {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        margin: 0px;
+        grid-area: familia;
+        width: 25%;
+        height: 50px;
+    }
+
+    .home-Familia h2 {
+        display: none;
+    }
+}

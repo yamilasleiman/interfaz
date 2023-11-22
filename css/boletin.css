@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://blogfonts.com/css/aWQ9NTU2JnN1Yj01NTYmYz1sJnR0Zj1saWJyYS1zZXJpZi1tb2Rlcm4ucmVndWxhci5vdGYmbj1saWJyYS1zZXJpZi1tb2Rlcm4tcmVndWxhcg/Libra Serif Modern Regular.otf" rel="stylesheet');
+/* font-family: 'libra-serif-modern-regular', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4da1a4;
+    margin: auto;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    /* padding: 20px 0; */
+    height: auto;
+    font-family: 'Questrial', sans-serif;
+    margin: auto;
+    font-size: 100%;
+}
+
+/*---------------------- MIGAS DE PAN ---------------------*/
+#migasDePan {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    font-weight: normal;
+    align-items: center;
+    margin: 0;
+}
+
+#migasDePan a,
+#migasDePan p {
+    font-size: 1.5em;
+}
+
+#migasDePan a {
+    text-decoration: none;
+}
+
+#migasDePan a:hover {
+    text-decoration: underline;
+}
+
+#migasDePan {
+    color: #fff;
+}
+
+/* --------------------TITULOS-------------------------- */
+
+#Titulos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    align-items: center;
+    margin: 1em 0 2em;
+}
+
+#Titulos h1 {
+    text-align: start;
+    width: 60%;
+    font-size: 4em;
+    margin: 0;
+}
+
+#tituloSecundario {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+#tituloSecundario h2 {
+    margin-left: 1em;
+    font-size: 2em;
+    margin-top: auto;
+    margin-bottom: 0;
+}
+
+
+/* --------------------TABLAS------------------------ */
+.tabla-contenedora {
+    border-collapse: collapse;
+    font-size: 1.4em;
+    width: 100%;
+    border: 3px solid gray;
+    background-color: #fff;
+    text-align: center;
+    /* height: 700px; */
+
+}
+
+.nombre-trabajo {
+    width: 10%;
+}
+
+th {
+    width: 20%;
+    height: 4em;
+    border-bottom: 2px solid gray;
+}
+
+td {
+    border-bottom: 3px dotted gray;
+    height: 2.8em;
+}
+
+th,
+td {
+    border-right: 1px solid gray;
+}
+
+.tabla-numero {
+    font-size: 1.5em;
+}
+
+.nota-final {
+    font-weight: bolder;
+}
+
+.cronograma-fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 40px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.cronograma-fixed-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+/* ---------------------RESPONSIVE---------------------------- */
+/* ---------------celu---------------------- */
+@media screen and (max-width: 47em) {
+
+    /* ------------------MAIN------------------- */
+    main {
+        width: 90%;
+        font-size: 60%;
+        margin: auto;
+    }
+
+
+    /* migas de pan */
+    #migasDePan {
+        width: 100%;
+    }
+
+    #migasDePan a,
+    #migasDePan p {
+        font-size: 2em;
+    }
+
+    /* Titulos */
+    #Titulos {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 0;
+    }
+
+    #Titulos h1 {
+        text-align: center;
+        width: 100%;
+        font-size: 4em;
+        margin: 0;
+        line-height: normal;
+    }
+
+    #tituloSecundario {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1em;
+    }
+
+    #tituloSecundario h2 {
+        margin-left: 0;
+        font-size: 2em;
+        margin-top: auto;
+        margin-bottom: 0;
+    }
+
+
+    /* Tablas */
+
+    .tabla-contenedora {
+        border: 2px solid gray;
+    }
+
+    #tablaNotas {
+        margin-top: 10%;
+    }
+
+    .nombre-trabajo {
+        width: 10%;
+    }
+
+    th {
+        font-size: 90%;
+    }
+
+    td {
+        border-bottom: 2px dotted gray;
+    }
+
+    /*------------------- FOOTER -------------------*/
+    .footer-texto {
+        margin: 0;
+    }
+
+
+
+
+
+
+}

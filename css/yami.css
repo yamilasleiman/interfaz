@@ -1,0 +1,386 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://blogfonts.com/css/aWQ9NTU2JnN1Yj01NTYmYz1sJnR0Zj1saWJyYS1zZXJpZi1tb2Rlcm4ucmVndWxhci5vdGYmbj1saWJyYS1zZXJpZi1tb2Rlcm4tcmVndWxhcg/Libra Serif Modern Regular.otf" rel="stylesheet');
+/* font-family: 'libra-serif-modern-regular', sans-serif; */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/* LO NUEVO*/
+img.fondo-olvide{
+    position: fixed;
+    z-index: 1;
+}
+img.persona-olvide{
+    position: absolute;
+}
+
+.avisos{/*SI*/
+    display: flex;
+    height: 100%;
+}
+.menu-costado{
+    /*SI*/
+    width: 17%;
+    background-color: #022E40;
+}
+a.aca {
+    position: relative;
+    left: -9px;
+    top: 0px;
+}
+.colorcito{
+    color: aliceblue;
+}
+
+.title{
+    width: 18%;
+    color: #fff;
+    font-family: 'Questrial', sans-serif;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.tex{
+    width: 90%;
+    color: #fff;
+    position: relative;
+    left: 30px;
+    top: 15px;
+}
+.usuario{
+    text-align: start;
+    padding: 0px 62px 0px 67px;
+    color: #fff;
+}
+main {
+    height: 700px;
+    position: relative;
+    /* https://app.haikei.app/ */
+}
+.tiesa{
+    /*SI*/
+    width: 20%;
+    position: relative;
+    left: 34px;
+    top: 19px;
+}
+.contene{
+    /*SI*/
+    border-bottom: 2px solid #65858C;
+    height: 87px;
+}
+.todo{
+    width: 100%;
+}
+.otra {
+    display: flex;
+    justify-content: flex-start;
+}
+img.img {
+    position: relative;
+    left: 205px;
+    top: -93px;
+}
+.de-prueba{
+    display: flex;
+}
+.ti{
+    color: #fff;
+    font-size: 1.75rem;
+    position: relative;
+    top: 9px;
+    left: 30px;
+}
+.title.tex{
+    width: 90%;
+}
+.card-avisos {
+    left: 14%;
+    position: relative;
+    background-color: #022E40;
+    width: 1050px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.card-avisos-gris{
+    background-color: #65858C;
+    left: 14%;
+    position: relative;
+    width: 1050px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 10px;
+}
+.olvide-contra{
+    width: 300px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 5px;
+}
+
+.btn-olvide{
+    /*SI*/
+    padding: 8px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: #022E40;
+    color: #fff;
+    border: none;
+}
+
+.texto-olvide{
+    /*SI*/
+    font-family: 'Questrial', sans-serif;
+    padding: 10px 62px 0px 67px;
+    text-align: start;
+    color: #fff;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+    left: 50px;
+    top: 18px;
+    font-size: 17px;
+}
+h1{
+    color: #fff;
+    font-size: 55px;
+}
+.leim{
+    /*SI*/
+
+    padding: 35px 0px 20px 0px;
+}
+.olv-logo{
+    /*SI*/
+    width: 70px;
+    height: 70px;
+    left: 43%;
+}
+#nav-olvide{
+    /* font-size: ; */
+}
+.titulo-olvide{
+    padding: 0px 0px 0px 70px;
+    color: #fff;
+    font-family: 'libra-serif-modern-regular', sans-serif;
+
+}
+.sub-olvide{
+    font-family: 'Questrial', sans-serif;
+    color: #fff;
+    font-size: 31px;
+}
+ul{
+    list-style: none;
+    border-bottom: 2px solid #65858C;
+}
+.titule{
+    /*SI*/
+    color: #fff;
+    padding: 5px 0px 0px 50px;
+}
+
+
+/*INICIO - OLVIDE CONTRASEÑA*/
+
+.nav {
+    /*SI*/
+    flex-wrap: wrap;
+    background-color: #022E40;
+    height: auto;
+}
+
+.nav-logo {
+    /*SI*/
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+.nav-titulo-colegio {
+    /*SI*/
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.olv-password {
+    /*SI*/
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+.olv-password img{
+    position: absolute;
+
+}
+
+.olv-card {
+    /*SI*/
+    background-color: #4DA1A4;
+    width: 420px;
+    height: 550px;
+    border-radius: 50px;
+}
+img.manchaxd {
+    left: -30%;
+    transform: rotate(166deg);
+
+}
+img.persona-olvide {
+    width: 20%;
+    left: 2%;
+    bottom: 0%;
+}
+/*OLV-PASS - HOME*/
+
+.nav-home {
+    /*SI*/
+    display: flex;
+    justify-content: space-between;
+    background-color: #022E40;
+    height: 50px;
+    gap: 15px;
+}
+
+.nav-logotipo {
+    /*SI*/
+    display: flex;
+    width: 50%;
+}
+
+.nav-titulo-colegio {
+    /*SI*/
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
+.nav-burger img {
+    /*SI*/
+    width: 30px;
+}
+
+.home-Familia {
+    /*SI*/
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px 10px 0px 0px;
+}
+.home-Familia h2 {
+    /*SI*/
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    margin-top: 6px;
+}
+.home {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    height: 650px;
+}
+
+
+
+.footer-img {
+    
+    position: fixed;
+    z-index: 4;
+    bottom: -430px;
+    left: -100px;
+    height: 500px;
+}
+
+.footer-img-1 {
+    position: fixed;
+    z-index: 3;
+    bottom: -380px;
+    left: 0px;
+    width: 1500px;
+    height: 500px;
+}
+
+.footer-img-2 {
+    /*SI*/
+    position: fixed;
+    z-index: 3;
+    bottom: -770px;
+    right: -1920px;
+    width: 2500px;
+    height: 1000px;
+}
+
+.footer-texto {
+    /*SI*/
+    position: fixed;
+    z-index: 5;
+    bottom: 0px;
+    left: 35%;
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    color: white;
+}
+.main-area-padre {
+    /*SI*/
+    background-color: #4DA1A4;
+    height: 1000px;
+}
+
+@media screen and (max-width:47em){
+    img.manchaxd {
+        width: 168%;
+        position: fixed;
+        left: -115%;
+        bottom: -182px;
+    }
+    img.persona-olvide{
+        display: none;
+    }
+    .olv-card{
+        width: 320px;
+        height: 550px;
+        z-index: 10;
+    }
+    .olv-logo{
+        left: 25%;
+    }
+    .titulo-olvide{
+        position: relative;
+        left: 0%;
+    font-family: 'libra-serif-modern-regular', sans-serif;
+}
+    .sub-olvide{
+        font-size: 120%;
+    }
+    .texto-olvide{
+        font-family: 'Questrial', sans-serif;
+        padding: 0px 30px 0px 30px;
+    }
+    .usuario{
+        position: relative;
+        left: 8%;
+        padding: 5px 42px 0px 0px;
+        font-family: 'Questrial', sans-serif;
+    }
+    .btn-olvide{
+        width: 278px;
+    }
+    .olvide-contra{
+        width: 278px;
+    }
+}

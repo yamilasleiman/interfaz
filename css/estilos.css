@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://blogfonts.com/css/aWQ9NTU2JnN1Yj01NTYmYz1sJnR0Zj1saWJyYS1zZXJpZi1tb2Rlcm4ucmVndWxhci5vdGYmbj1saWJyYS1zZXJpZi1tb2Rlcm4tcmVndWxhcg/Libra Serif Modern Regular.otf" rel="stylesheet');
+/* font-family: 'libra-serif-modern-regular', sans-serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+main {
+    height: 700px;
+    /* https://app.haikei.app/ */
+}
+
+.mensajeError {
+    color: #4DA1A4;
+    font-family: 'Questrial', sans-serif;
+    margin-left: 90px;
+    background-color: rgb(255, 255, 255);
+    width: 61%;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.main-fondo-cover {
+    width: 2137px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+
+.main-fondo {
+    width: 100%;
+    position: fixed;
+    top: 416px;
+    z-index: 1;
+}
+
+.main-fondo-1 {
+    width: 100%;
+    position: fixed;
+    top: 550px;
+    z-index: -1;
+}
+
+.inicio {
+    display: flex;
+    justify-content: space-between;
+    height: 607px;
+}
+
+.inicio-logotipo {
+    text-align: center;
+}
+
+.inicio-img-LEIM {
+    width: 380px;
+}
+
+.inicio-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: xx-large;
+    margin-left: 28px;
+    margin-bottom: 62px;
+    text-align: center;
+}
+
+.inicio-login {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+    margin: 95px 0px 0px 100px;
+    text-align: left;
+    z-index: 99;
+}
+
+
+.inicio-login label {
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    padding: 2px;
+    font-size: xx-large;
+    margin-left: 28px;
+}
+
+.inicio-input {
+    width: 465px;
+    margin: 0px 0px 55px 28px;
+    border-radius: 10px;
+    border: 0px;
+    padding: 12px;
+}
+
+.inicio-logicaInicio {
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 12px; */
+    margin-left: 17px;
+}
+
+.btn-login {
+    padding: 12px;
+    width: 175px;
+    border-radius: 21px;
+    font-family: 'Questrial', sans-serif;
+    font-size: larger;
+    letter-spacing: 1px;
+    margin-left: 12px;
+    background-color: #4DA1A4;
+    text-decoration: none;
+    color: white;
+    border: none;
+}
+
+.inicio-olv-password {
+    display: inline-block;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: larger;
+    padding: 10px;
+    margin-left: 94px;
+    margin-top: 10px;
+}
+
+.inicio-imgHome {
+    height: 512px;
+    position: absolute;
+    z-index: 3;
+    right: 220px;
+    top: 265px;
+}
+
+.inicio-robot {
+    position: fixed;
+    z-index: 99;
+    right: 80px;
+    bottom: 5px;
+    width: 100px;
+}
+
+.inicio-mancha {
+    position: fixed;
+    top: -2px;
+    right: 9px;
+    width: 45%;
+    z-index: 1;
+    transform: rotate(90deg);
+}
+
+.inicio-mancha-fondo {
+    position: fixed;
+    top: 305px;
+    right: 0px;
+    width: 100%;
+    z-index: -99;
+    transform: rotateX(180deg);
+}
+
+.popup {
+    width: 350px;
+    background-color: white;
+    height: 365px;
+    text-align: justify;
+    position: fixed;
+    z-index: 99;
+    bottom: 130px;
+    right: 135px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 5px -4px rgba(0, 0, 0, 0.50);
+}
+
+.popup h1 {
+    color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.popup h2 {
+    color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: small;
+    margin: 10px 10px 10px 20px;
+    width: 80%;
+}
+
+.popup img {
+    width: 53%;
+    height: 50%;
+    margin-left: 80px;
+}
+
+.btn-popUp {
+    padding: 2px;
+    width: 80px;
+    border-radius: 8px;
+    font-family: 'Questrial', sans-serif;
+    font-weight: bold;
+    margin-left: 135px;
+    background-color: aquamarine;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 10px 5px -4px rgba(0, 0, 0, 0.50);
+    border: none;
+}
+
+.verPopup {
+    display: none;
+}
+
+
+/* INICIO  - OLVIDE CONTRASEÑA*/
+
+.nav {
+    flex-wrap: wrap;
+    background-color: #022E40;
+    height: 50px;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+.olv-password {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+.olv-card {
+    background-color: #4DA1A4;
+    width: 500px;
+    height: 550px;
+    border-radius: 50px;
+
+}
+
+/*OLV-PASS - HOME*/
+
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+    background-color: #022E40;
+    height: 50px;
+    gap: 15px;
+}
+
+.nav-logotipo {
+    display: flex;
+    width: 50%;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-user {
+    width: 30px;
+    height: 30px;
+
+}
+
+.nav-burger img {
+    width: 30px;
+}
+
+.home-Familia {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px 10px 0px 0px;
+}
+
+.home-Familia h2 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    margin-top: 6px;
+}
+
+
+.home {
+    background-color: #D9D9D9;
+    display: flex;
+    justify-content: space-around;
+    height: 1010px;
+}
+
+.home-mancha {
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    top: 69.5px;
+    width: 1310px;
+}
+
+
+
+.home-tramites {
+    flex-direction: column;
+    text-align: center;
+    z-index: 3;
+    margin-top: 15%;
+}
+
+.home-tramites img {
+    width: 300px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+
+.home-tramites a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+    color: #022E40;
+    padding: 10px;
+    background-color: #D9D9D9;
+    border-radius: 20px;
+}
+.home-tramites a:hover{
+    background-color: #022E40  ;
+    color: #D9D9D9;
+}
+
+
+
+.home-area-padre {
+    flex-direction: column;
+    text-align: center;
+    z-index: 1;
+    margin-top: 13%;
+}
+
+
+.home-area-padre img {
+    width: 344px;
+    height: 322px;
+    margin-top: 8px;
+    margin-bottom: 12px;
+}
+
+.home-area-padre a {
+    display: block;
+    text-decoration: none;
+    font-family: 'Questrial', sans-serif;
+    font-size: x-large;
+    color: white;
+    padding: 10px;
+    background-color: #4DA1A4;
+    border-radius: 20px;
+}
+.home-area-padre a:hover {
+    background-color: #022E40;
+    color: white;
+
+}
+
+.fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 100px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.fixed-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+/*Home - Calendario*/
+
+.migas-de-pan {
+    margin-left: 260px;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+}
+
+
+
+.main-area-padre {
+    background-color: #4DA1A4;
+    height: 1010px;
+}
+
+.contenedor-calendario {
+    text-align: center;
+}
+
+.calendario {
+    border-radius: 10px;
+}
+
+.cronograma-fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 40px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.cronograma-fixed-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+/* CELULAR */
+
+@media screen and (max-width: 47em) {
+    .inicio-imgHome {
+        display: none;
+        margin-left: -136px;
+    }
+
+    .inicio-img-LEIM {
+        max-width: 20em;
+        margin-left: -110px;
+    }
+
+    .inicio-mancha {
+        display: none;
+    }
+
+    .inicio-titulo-colegio {
+        font-size: larger;
+        margin-left: -91px;
+        text-align: center;
+    }
+
+    .inicio-login label {
+        font-size: medium;
+    }
+
+    .inicio-input {
+        width: 280px;
+        padding: 12px;
+        margin-bottom: 35px;
+    }
+
+    .inicio-olv-password {
+        margin-left: 63px;
+        color: rgb(255, 255, 255);
+        font-size: medium;
+    }
+
+    .btn-login {
+        margin-left: 90px;
+        width: 120px;
+        padding: 2px;
+        font-size: medium;
+    }
+
+    .main-fondo {
+        width: 395px;
+        top: 597px;
+        left: 0px;
+    }
+
+    .main-fondo-1 {
+        width: 101%;
+        top: 638px;
+        left: 0px;
+    }
+
+    .main-fondo-cover {
+        width: 1836px;
+        top: 0px;
+        left: -635px;
+    }
+
+    form {
+        text-align: left;
+        margin-left: -65px;
+    }
+
+    .inicio-robot {
+        right: 20px;
+        bottom: 15px;
+        width: 60px;
+    }
+
+
+    header {
+        background-color: #022E40;
+        width: 100%;
+    }
+
+    .home {
+        flex-direction: column;
+        height: 720px;
+    }
+
+    .home-mancha {
+        width: 375px;
+        transform: rotateZ(90deg);
+        top: -295px;
+        left: 56px;
+    }
+
+    .home-tramites img {
+        max-width: 100%;
+        width: 120px;
+        margin-bottom: 25px;
+        height: 100px;
+    }
+
+    .home-area-padre img {
+        max-width: 100%;
+        width: 120px;
+        margin-bottom: 25px;
+        height: 100px;
+    }
+
+    .home-tramites a:hover {
+        background-color: #022E40;
+        color: white;
+        font-size: medium;
+    }
+    body{
+        background-color: #D9D9D9;
+    }
+
+
+    /* .home-area-padre a {
+        width: 120px;
+        background-color: #022E40;
+        margin-left: 105px;
+        font-size: medium;
+    }
+    .home-area-padre a:hover{
+        background-color: #022E40;
+        color: white;
+    } */
+
+}

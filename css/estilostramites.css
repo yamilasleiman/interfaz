@@ -1,0 +1,355 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+@import url('https://blogfonts.com/css/aWQ9NTU2JnN1Yj01NTYmYz1sJnR0Zj1saWJyYS1zZXJpZi1tb2Rlcm4ucmVndWxhci5vdGYmbj1saWJyYS1zZXJpZi1tb2Rlcm4tcmVndWxhcg/Libra Serif Modern Regular.otf" rel="stylesheet');
+/* font-family: 'libra-serif-modern-regular', sans-serif; */
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #D9D9D9;
+    ;
+}
+
+/*Header*/
+
+
+.inicio-img-LEIM {
+    width: 11.11em;
+}
+
+.inicio-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-left: 2.2em;
+    margin-bottom: 2.7em;
+    text-align: center;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-top: 10px;
+}
+
+
+.nav-home {
+    display: flex;
+    justify-content: space-between;
+    background-color: #022E40;
+    height: 50px;
+    gap: 15px;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--bs-heading-color);
+}
+
+.nav-logotipo {
+    display: flex;
+    width: 50%;
+}
+
+.nav-logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+}
+
+.nav-titulo-colegio {
+    color: white;
+    font-family: 'libra-serif-modern-regular';
+    font-size: x-large;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.nav-user {
+    width: 30px;
+    height: 30px;
+
+}
+
+.nav-burger img {
+    width: 30px;
+}
+
+.home-Familia {
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    margin: 10px 10px 0px 0px;
+}
+
+.home-Familia h2 {
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    margin-top: 6px;
+}
+
+/*Migas de pan*/
+#migasDePan{
+    width: 30%;
+    display:flex;
+    flex-direction: row;
+    margin-left: 3em;
+    margin-top: 1em;
+}
+#migasDePan a, #migasDePan p{font-size: 1.5em; font-family: 'Questrial', sans-serif;}
+#migasDePan a{text-decoration: none;}
+#migasDePan a:hover{text-decoration:underline;}
+#migasDePan #link_area{color: #fff;}
+/* main */
+h1 {
+    text-align: center;
+    font-family: 'Questrial';
+    color: #012F41;
+    font-size: 3.4em;
+}
+
+.contenedor-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2em;
+
+}
+
+.cubo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20em;
+    width: calc(33.3% - 20px);
+    background-color: #4DA1A4;
+    margin: 0.6em;
+    border-radius: 1em;
+
+}
+
+.cubo p {
+    font-size: 2em;
+    font-family: 'Questrial';
+    color: aliceblue;
+}
+
+.img-tramites {
+    height: 10em;
+    width: 10em;
+    padding-bottom: 0.8em;
+}
+
+/* main */
+/*Footer*/
+
+.contenedor-footer {
+    position: fixed;
+    bottom: 0%;
+    /* height: 3.5em; */
+    width: 100%;
+}
+
+/* .img-footer{
+    
+} */
+
+/* BOTON VOLVER */
+.cronograma-fixed-btn {
+    position: fixed;
+    z-index: 99;
+    right: -95px;
+    bottom: 40px;
+    background-color: #022E40;
+    font-family: 'Questrial', sans-serif;
+    font-size: medium;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+.cronograma-fixed-btn img {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 47em){
+    body {
+        background-color: #D9D9D9;
+        ;
+    }
+    
+    /*Header*/
+    
+    
+    header{
+        background-color: #022E40;
+        width: 100%;
+    }
+    .nav-home {
+        display: flex;
+        grid-template-areas: "logotipo familia";
+        height: 4em;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .nav-logotipo {
+        display: flex;
+        align-items: center;
+        width: 70%;
+    }
+
+    .nav-logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0;
+        margin: 0 0.3em
+    }
+    
+    .nav-titulo-colegio {
+        color: white;
+        font-family: 'libra-serif-modern-regular';
+        font-size: 0.8em;
+        margin-left: 0;
+        margin-bottom: 0;
+        margin-top: 0;
+        text-align: start;
+    }
+    
+    .nav-user {
+        width: 35px;
+        height: 35px;
+    }
+    
+    .nav-burger{height: 45px;}
+    .nav-burger img {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .home-Familia {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        margin: 0px;
+        grid-area: familia;
+        width: 25%;
+        height: 50px;
+    }
+    
+    .home-Familia h2 {
+        display: none;
+    }
+    
+    /*Header*/
+    /* main */
+    h1 {
+        text-align: center;
+        font-family: 'Questrial';
+        color: #012F41;
+        font-size: 3.4em;
+    }
+    
+    .contenedor-main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin: 2em;
+    
+    }
+    
+    .cubo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 20em;
+        width: 100%;
+        background-color: #4DA1A4;
+        margin: 0.6em;
+        border-radius: 1em;
+    
+    }
+    
+    .cubo p {
+        font-size: 2em;
+        font-family: 'Questrial';
+        color: aliceblue;
+    }
+    
+    .img-tramites {
+        height: 10em;
+        width: 10em;
+        padding-bottom: 0.8em;
+    }
+    
+    /* main */
+    /*Footer*/
+    
+    .contenedor-footer {
+        position: fixed;
+        bottom: 0%;
+        /* height: 3.5em; */
+        width: 100%;
+    }
+    
+    /* .img-footer{
+        
+    } */
+    
+    /* BOTON VOLVER */
+    .cronograma-fixed-btn {
+        position: fixed;
+        z-index: 99;
+        right: -95px;
+        bottom: 40px;
+        background-color: #022E40;
+        font-family: 'Questrial', sans-serif;
+        font-size: medium;
+        text-decoration: none;
+        color: white;
+        padding: 8px;
+        border-radius: 20px;
+        width: 150px;
+    }
+    
+    .cronograma-fixed-btn img {
+        width: 30px;
+        height: 30px;
+    }
+    main{
+        margin-bottom: 6em;
+    }
+   
+}
